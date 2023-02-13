@@ -49,7 +49,7 @@ export default {
                     </li>
 
                 </ul>
-                <button>
+                <button class="my-btn-primary">
                     Sign in
                 </button>
 
@@ -87,11 +87,6 @@ ul {
 }
 
 button {
-    border-radius: 20px;
-    padding: 10px;
-    margin-left: 15px;
-    background-color: $btn-blue-color;
-    color: white;
-    border: none;
+    margin-left: 20px;
 }
 </style>

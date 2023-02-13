@@ -4,3 +4,21 @@
     width: 90%;
     margin: 0 auto;
 }
+
+.my-btn-primary {
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 15px;
+    background-color: $btn-blue-color;
+    color: white;
+    border: none;
+}
+
+.my-btn-secondary {
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 15px;
+    background-color: $third-color;
+    color: white;
+    border: none;
+}
