@@ -1,15 +1,16 @@
 <script>
+import WhatWeDo from './WhatWeDo.vue';
 export default {
     name: ' AppMain',
     components: {
-
+        WhatWeDo,
     }
 }
 </script>
 
 <template>
     <main>
-        Main
+        <WhatWeDo />
     </main>
 </template>
 
