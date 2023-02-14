@@ -1,8 +1,9 @@
 <script>
+import People from './People.vue';
 export default {
     name: ' WhatPeopleSay',
     components: {
-
+        People
     }
 }
 </script>
@@ -13,22 +14,29 @@ export default {
             <span class="color">Testimonial</span>
             <h2><strong>What</strong> People Say</h2>
             <p>
-                When, while the lovely valley teems with vapour around meand the meridian sun strikes the
+                When, while the lovely valley teems with vapour around meand the meridian sun strikes <br> the
                 upper surface .
             </p>
             <div class="row">
+                <People />
+            </div>
+            <div class="row">
                 <div class="col">
-                    <img src="../assets/images/szabo-viktor-1266895-unsplash-1024x1024.png" alt=""> <br>
-                    <span>
-                        <font-awesome-icon icon="fa-solid fa-star" />
-                        <font-awesome-icon icon="fa-solid fa-star" />
-                        <font-awesome-icon icon="fa-solid fa-star" />
-                        <font-awesome-icon icon="fa-regular fa-star" />
-                        <font-awesome-icon icon="fa-regular fa-star" />
-                    </span>
+                    <img src="../assets/images/client-1-1.png" alt="">
                 </div>
-                <div class="col">col</div>
-                <div class="col">col</div>
+                <div class="col">
+                    <img src="../assets/images/clienty-2.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="../assets/images/clienty-3.png" alt="">
+                </div>
+
+                <div class="col">
+                    <img src="../assets/images/clienty-4.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="../assets/images/client-5.png" alt="">
+                </div>
             </div>
         </div>
     </section>
@@ -42,15 +50,10 @@ section {
 .my-container {
     text-align: center;
 
-    p {
-        margin-bottom: 100px;
-    }
 }
 
-.col {
-    img {
-        width: 50px;
-    }
+.row {
+    margin-top: 200px;
 }
 
 .color {

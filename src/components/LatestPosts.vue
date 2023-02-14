@@ -12,7 +12,7 @@ export default {
         <div class="my-container">
             <p class="color">Blog</p>
             <h2><strong>Latest </strong>Posts</h2>
-            <p>When, while the lovely valley teems with vapour around meand the meridian sun strikes the
+            <p>When, while the lovely valley teems with vapour around meand the meridian sun strikes <br> the
                 upper surface .
             </p>
             <div class="row">
