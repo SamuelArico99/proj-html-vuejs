@@ -13,7 +13,6 @@ export default {
             <span>Portfolio</span> <br>
             <span class="fs-2"><strong>latest</strong> work</span>
         </div>
-
     </section>
 </template>
 

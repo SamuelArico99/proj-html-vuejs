@@ -25,7 +25,7 @@ export default {
                             upper
                         </p>
                     </div>
-                    <div class="col">
+                    <div class="col pe-5">
                         <img class="mb-5" src="../assets/images/Group-567.png" alt="">
                         <h4>SEO Optimization</h4>
                         <p>
@@ -33,7 +33,7 @@ export default {
                             upper
                         </p>
                     </div>
-                    <div class="col">
+                    <div class="col ps-5">
                         <img class="mb-5" src="../assets/images/Group-538.png" alt="">
                         <h4>Security Data</h4>
                         <p>
@@ -65,6 +65,10 @@ section {
 
 .my-color {
     color: $third-color;
+}
+
+img {
+    height: 150px;
 }
 
 .my-container {
