@@ -16,10 +16,10 @@ export default {
                         Business Planning
                     </h1>
                     <span class="fs-1 text">Digital Technology</span>
-                    <h1>
+                    <h1 class="mb-5">
                         Modern Solution
                     </h1>
-                    <p>
+                    <p class="mb-5">
                         When, while the lovely valley teems with vapour around <br> meand the meridian sun strikes the
                         upper
                         surface
@@ -57,6 +57,10 @@ export default {
             background-color: $btn-blue-color;
         }
     }
+}
+
+p {
+    color: $p-color;
 }
 
 .row {
