@@ -4,6 +4,7 @@ import GrowBusiness from './GrowBusiness.vue';
 import Carousel from './Carousel.vue';
 import OurPricing from './OurPricing.vue';
 import LatestPosts from './LatestPosts.vue';
+import WhatPeopleSay from './WhatPeopleSay.vue'
 export default {
     name: ' AppMain',
     components: {
@@ -11,7 +12,8 @@ export default {
         GrowBusiness,
         Carousel,
         OurPricing,
-        LatestPosts
+        LatestPosts,
+        WhatPeopleSay,
     }
 }
 </script>
@@ -23,6 +25,7 @@ export default {
         <Carousel />
         <OurPricing />
         <LatestPosts />
+        <WhatPeopleSay />
     </main>
 </template>
 
