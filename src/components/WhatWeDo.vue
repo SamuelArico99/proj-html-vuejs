@@ -18,40 +18,83 @@ export default {
             <div class="container">
                 <div class="row gx-5">
                     <div class="col">
-                        <img class="mb-5" src="../assets/images/Group-247.png" alt="">
-                        <h4>Data Analysis</h4>
-                        <p class="my-margin">
-                            When, while the lovely valley teems with vapour around meand the meridian sun strikes the
-                            upper
-                        </p>
+                        <div class="my position-relative">
+                            <img class="position-absolute top-0 start-50 translate-middle"
+                                src="../assets/images/Group-247.png" alt="">
+                            <div class="text position-absolute top-50 start-50 translate-middle">
+                                <h4>Data Analysis</h4>
+                                <p class="my-margin">
+                                    When, while the lovely valley teems with vapour around meand the meridian sun
+                                    strikes
+                                    the
+                                    upper
+                                </p>
+                            </div>
+                            <button class="position-absolute top-100 start-50 translate-middle my-btn-secondary">
+                                <font-awesome-icon icon="fa-solid fa-arrow-right" />
+                            </button>
+                        </div>
                     </div>
                     <div class="col pe-5">
-                        <img class="mb-5" src="../assets/images/Group-567.png" alt="">
-                        <h4>SEO Optimization</h4>
-                        <p>
-                            When, while the lovely valley teems with vapour around meand the meridian sun strikes the
-                            upper
-                        </p>
+                        <div class="my position-relative">
+                            <img class="position-absolute top-0 start-50 translate-middle"
+                                src="../assets/images/Group-247.png" alt="">
+                            <div class="text position-absolute top-50 start-50 translate-middle">
+                                <h4>Data Analysis</h4>
+                                <p class="my-margin">
+                                    When, while the lovely valley teems with vapour around meand the meridian sun
+                                    strikes
+                                    the
+                                    upper
+                                </p>
+                            </div>
+                            <button class="position-absolute top-100 start-50 translate-middle my-btn-secondary">
+                                <font-awesome-icon icon="fa-solid fa-arrow-right" />
+                            </button>
+                        </div>
                     </div>
                     <div class="col ps-5">
-                        <img class="mb-5" src="../assets/images/Group-538.png" alt="">
-                        <h4>Security Data</h4>
-                        <p>
-                            When, while the lovely valley teems with vapour around meand the meridian sun strikes the
-                            upper
-                        </p>
+                        <div class="my position-relative">
+                            <img class="position-absolute top-0 start-50 translate-middle"
+                                src="../assets/images/Group-247.png" alt="">
+                            <div class="text position-absolute top-50 start-50 translate-middle">
+                                <h4>Data Analysis</h4>
+                                <p class="my-margin">
+                                    When, while the lovely valley teems with vapour around meand the meridian sun
+                                    strikes
+                                    the
+                                    upper
+                                </p>
+                            </div>
+                            <button class="position-absolute top-100 start-50 translate-middle my-btn-secondary">
+                                <font-awesome-icon icon="fa-solid fa-arrow-right" />
+                            </button>
+                        </div>
                     </div>
                     <div class="col">
-                        <img class="mb-5" src="../assets/images/Group-566.png" alt="">
-                        <h4>Branding Strategy</h4>
-                        <p>
-                            When, while the lovely valley teems with vapour around meand the meridian sun strikes the
-                            upper
-                        </p>
+                        <div class="my position-relative">
+                            <img class="position-absolute top-0 start-50 translate-middle"
+                                src="../assets/images/Group-247.png" alt="">
+                            <div class="text position-absolute top-50 start-50 translate-middle">
+                                <h4>Data Analysis</h4>
+                                <p class="my-margin">
+                                    When, while the lovely valley teems with vapour around meand the meridian sun
+                                    strikes
+                                    the
+                                    upper
+                                </p>
+                            </div>
+                            <button class="position-absolute top-100 start-50 translate-middle my-btn-secondary">
+                                <font-awesome-icon icon="fa-solid fa-arrow-right" />
+                            </button>
+                        </div>
                     </div>
                 </div>
 
-                <button class="my-btn-secondary">View All Services</button>
+                <button class=" my-btn-secondary">
+                    View All
+                    Services
+                </button>
 
             </div>
         </div>
@@ -61,6 +104,36 @@ export default {
 <style lang="scss" scoped>
 section {
     padding: 100px;
+}
+
+.col {
+    height: 300px;
+}
+
+.my {
+    height: 100%;
+    border-radius: 30px;
+
+    &:hover {
+        background-color: $primary-color;
+        color: white;
+
+        .my-btn-secondary {
+            display: block;
+        }
+    }
+
+    .my-btn-secondary {
+        border-radius: 50%;
+        padding: 10px 15px;
+        margin: 0;
+        display: none;
+    }
+
+    .text {
+        margin-top: 50px;
+        width: 100%;
+    }
 }
 
 .my-color {
