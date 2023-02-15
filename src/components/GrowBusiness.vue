@@ -57,4 +57,12 @@ p {
 .my-btn-secondary {
     margin: 0;
 }
+
+.my-btn-primary:hover {
+    background-color: $third-color;
+}
+
+.my-btn-secondary:hover {
+    background-color: $btn-blue-color;
+}
 </style>

@@ -5,6 +5,7 @@ import Carousel from './Carousel.vue';
 import OurPricing from './OurPricing.vue';
 import LatestPosts from './LatestPosts.vue';
 import WhatPeopleSay from './WhatPeopleSay.vue'
+
 export default {
     name: ' AppMain',
     components: {
@@ -14,6 +15,7 @@ export default {
         OurPricing,
         LatestPosts,
         WhatPeopleSay,
+
     }
 }
 </script>
@@ -26,6 +28,7 @@ export default {
         <OurPricing />
         <LatestPosts />
         <WhatPeopleSay />
+
     </main>
 </template>
 

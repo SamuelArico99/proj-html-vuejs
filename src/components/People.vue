@@ -30,7 +30,7 @@ export default {
         </p>
     </div>
     <div class="col">
-        <img class="mb-5" src="../assets/images/szabo-viktor-1266895-unsplash-1024x1024.png" alt=""> <br>
+        <img class="mb-5" src="../assets/images/philipe-cavalcante-539505-unsplash-1024x1024.png" alt=""> <br>
         <span>
             <font-awesome-icon icon="fa-solid fa-star" />
             <font-awesome-icon icon="fa-solid fa-star" />
@@ -50,7 +50,7 @@ export default {
         </p>
     </div>
     <div class="col">
-        <img class="mb-5" src="../assets/images/szabo-viktor-1266895-unsplash-1024x1024.png" alt=""> <br>
+        <img class="mb-5" src="../assets/images/fabio-spinelli-695744-unsplash-1024x1024.png" alt=""> <br>
         <span>
             <font-awesome-icon icon="fa-solid fa-star" />
             <font-awesome-icon icon="fa-solid fa-star" />

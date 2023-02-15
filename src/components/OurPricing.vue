@@ -42,6 +42,7 @@ section {
     }
 }
 
+
 .color {
     color: $third-color;
 }

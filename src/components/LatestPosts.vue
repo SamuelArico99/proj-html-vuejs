@@ -19,10 +19,10 @@ export default {
                 <div class="col-6">
                     <div class=" my-card background-img px-5 py-5 d-flex justify-content-between align-items-end">
                         <div>
-                            <p>
+                            <p class="mb-3">
                                 April 21,2019 by Paul
                             </p>
-                            <h4>
+                            <h4 class="mb-3">
                                 Amazon gets CCI nod to acquire 49% stake in
                             </h4>
                             <p>
@@ -35,12 +35,12 @@ export default {
                     </div>
                 </div>
                 <div class="col-3 ps-3">
-                    <div class=" my-card px-5 py-5 background-color ">
+                    <div class=" my-card px-5 py-5 background-color d-flex flex-column justify-content-between  ">
                         <div>
-                            <p>
+                            <p class="mb-3">
                                 April 21,2019 by Paul
                             </p>
-                            <h4>
+                            <h4 class="mb-3">
                                 Clearing Corporation get SEBI nod to invest in overnight funds
                             </h4>
                             <p>
@@ -53,12 +53,12 @@ export default {
                     </div>
                 </div>
                 <div class="col-3 ps-3">
-                    <div class=" my-card px-5 py-5 background-color">
+                    <div class=" my-card px-5 py-5 background-color d-flex flex-column justify-content-between">
                         <div>
-                            <p>
+                            <p class="mb-3">
                                 April 21,2019 by Paul
                             </p>
-                            <h4>
+                            <h4 class="mb-3">
                                 Shabnam Dhillion, wife of RSSB chief Gurinder Dhillon, passes away in London
                             </h4>
                             <p>
@@ -101,16 +101,13 @@ export default {
     height: 100%;
     border-radius: 20px;
 
-    p {
-        margin: 30px 0;
-    }
-
 }
 
 .my-btn-primary {
     background-color: white;
     color: black;
     margin: 0;
+    width: 150px;
 }
 
 p {
