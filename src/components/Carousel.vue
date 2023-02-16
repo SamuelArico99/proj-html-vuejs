@@ -1,4 +1,7 @@
 <script>
+
+
+
 export default {
     data() {
         return {
@@ -48,7 +51,7 @@ export default {
         setStep() {
             const innerWidth = this.$refs.inner.scrollWidth
             const totalCards = this.cards.length
-            this.step = `650px`
+            this.step = `${innerWidth / totalCards}px`
         },
         next() {
             if (this.transitioning) return
@@ -131,7 +134,7 @@ export default {
                 </div>
             </div>
         </div>
-    </section>
+</section>
 </template>
 
 <style lang="scss" scoped>
