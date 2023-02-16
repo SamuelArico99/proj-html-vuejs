@@ -38,9 +38,9 @@ export default {
                     <div class="col pe-5">
                         <div class="my position-relative">
                             <img class="position-absolute top-0 start-50 translate-middle"
-                                src="../assets/images/Group-247.png" alt="">
+                                src="../assets/images/Group-567.png" alt="">
                             <div class="text position-absolute top-50 start-50 translate-middle">
-                                <h4>Data Analysis</h4>
+                                <h4>SEO Optimization</h4>
                                 <p class="my-margin">
                                     When, while the lovely valley teems with vapour around meand the meridian sun
                                     strikes
@@ -56,9 +56,9 @@ export default {
                     <div class="col ps-5">
                         <div class="my position-relative">
                             <img class="position-absolute top-0 start-50 translate-middle"
-                                src="../assets/images/Group-247.png" alt="">
+                                src="../assets/images/Group-538.png" alt="">
                             <div class="text position-absolute top-50 start-50 translate-middle">
-                                <h4>Data Analysis</h4>
+                                <h4>Security Data</h4>
                                 <p class="my-margin">
                                     When, while the lovely valley teems with vapour around meand the meridian sun
                                     strikes
@@ -74,9 +74,9 @@ export default {
                     <div class="col">
                         <div class="my position-relative">
                             <img class="position-absolute top-0 start-50 translate-middle"
-                                src="../assets/images/Group-247.png" alt="">
+                                src="../assets/images/Group-566.png" alt="">
                             <div class="text position-absolute top-50 start-50 translate-middle">
-                                <h4>Data Analysis</h4>
+                                <h4>Branding Strategy</h4>
                                 <p class="my-margin">
                                     When, while the lovely valley teems with vapour around meand the meridian sun
                                     strikes
@@ -115,7 +115,8 @@ section {
     border-radius: 30px;
 
     &:hover {
-        background-color: $primary-color;
+        background: rgb(2, 2, 49);
+        background: linear-gradient(0deg, rgba(2, 2, 49, 1) 13%, rgba(10, 23, 79, 1) 50%);
         color: white;
 
         .my-btn-secondary {

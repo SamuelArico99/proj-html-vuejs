@@ -75,7 +75,9 @@ export default {
 .col {
     img {
         width: 100px;
-        border: 5px solid $third-color;
+        border: 3px solid;
+        border-color: rgb(242, 92, 108);
+        border-color: linear-gradient(266deg, rgba(242, 92, 108, 1) 21%, rgba(185, 39, 110, 1) 50%);
         border-radius: 50%;
     }
 

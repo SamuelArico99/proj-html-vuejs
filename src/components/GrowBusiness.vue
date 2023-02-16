@@ -59,10 +59,12 @@ p {
 }
 
 .my-btn-primary:hover {
-    background-color: $third-color;
+    background: rgb(242, 92, 108);
+    background: linear-gradient(266deg, rgba(242, 92, 108, 1) 21%, rgba(185, 39, 110, 1) 50%);
 }
 
 .my-btn-secondary:hover {
-    background-color: $btn-blue-color;
+    background: rgb(28, 72, 138);
+    background: linear-gradient(297deg, rgba(28, 72, 138, 1) 34%, rgba(9, 143, 192, 1) 100%);
 }
 </style>

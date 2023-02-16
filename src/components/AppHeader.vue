@@ -61,7 +61,7 @@ export default {
 
 <style lang="scss" scoped>
 header {
-    background-color: $primary-color;
+    background-color: rgba(10, 23, 79, 1);
     padding: 20px;
     border: none;
 }

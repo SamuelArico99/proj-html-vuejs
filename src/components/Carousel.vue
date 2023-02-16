@@ -161,7 +161,8 @@ section {
     color: black;
 
     &:hover {
-        background-color: $third-color;
+        background: rgb(242, 92, 108);
+        background: linear-gradient(266deg, rgba(242, 92, 108, 1) 21%, rgba(185, 39, 110, 1) 50%);
 
         strong {
             color: white;
@@ -192,6 +193,10 @@ section {
 
 button {
     background-color: white;
+
+    &:hover {
+        font-size: 20px;
+    }
 }
 
 .circle {

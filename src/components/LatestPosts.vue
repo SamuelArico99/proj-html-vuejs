@@ -94,7 +94,8 @@ export default {
 }
 
 .background-color {
-    background-color: $primary-color;
+    background: rgb(2, 2, 49);
+    background: linear-gradient(0deg, rgba(2, 2, 49, 1) 13%, rgba(10, 23, 79, 1) 50%);
 }
 
 .my-card {
@@ -104,7 +105,7 @@ export default {
 }
 
 .my-btn-primary {
-    background-color: white;
+    background: rgb(255, 255, 255);
     color: black;
     margin: 0;
     width: 150px;

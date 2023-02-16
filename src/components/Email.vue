@@ -20,13 +20,11 @@ export default {
                 </p>
 
             </div>
-            <div class="input-type">
-                <input type="text" placeholder="Enter Your Email Address">
-                <div class="part-input">
-                    <button type="button" id="button-addon2">Subscribe</button>
-                </div>
-
-
+            <div class="search-container">
+                <form action="">
+                    <input type="text" placeholder="Enter Your Email Address">
+                    <button class="my-btn-primary position-absolute top-50 translate-middle-y">Send</button>
+                </form>
             </div>
         </div>
     </section>
@@ -34,12 +32,13 @@ export default {
 
 <style lang="scss" scoped>
 section {
-    width: 80%;
+    width: 100%;
 }
 
 .my-container {
-    background-color: $third-color;
-    padding: 80px;
+    background: rgb(242, 92, 108);
+    background: linear-gradient(266deg, rgba(242, 92, 108, 1) 21%, rgba(185, 39, 110, 1) 50%);
+    padding: 120px 60px;
     border-radius: 20px;
 
     .text {
@@ -47,38 +46,27 @@ section {
     }
 }
 
-.input-type {
-    width: 50%;
-    display: flex;
-    justify-content: end;
+.search-container {
+    width: 600px;
+    height: 50px;
+    border-radius: 30px;
+    position: relative;
 
     input {
-        width: 50%;
+        width: 100%;
         height: 50px;
-        padding: 20px;
-        border: transparent;
-        border-top-left-radius: 30px;
-        border-bottom-left-radius: 30px;
+        border-radius: 30px;
+        padding: 10px;
+        border: none;
+        outline: none;
     }
 
-    .part-input {
-        background-color: white;
-        display: flex;
-        align-items: center;
-        width: 150px;
+    .my-btn-primary {
+        border-radius: 30px;
+        width: 100px;
+        height: 80%;
+        right: 10px;
         padding: 5px;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
-        border-left: transparent;
-
-        button {
-            width: 100%;
-            height: 100%;
-            border-radius: 30px;
-            border: none;
-            background-color: $btn-blue-color;
-            color: white;
-        }
     }
 }
 </style>
