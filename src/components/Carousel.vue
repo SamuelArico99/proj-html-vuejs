@@ -2,6 +2,7 @@
 
 
 
+
 export default {
     data() {
         return {
@@ -166,6 +167,7 @@ section {
     &:hover {
         background: rgb(242, 92, 108);
         background: linear-gradient(266deg, rgba(242, 92, 108, 1) 21%, rgba(185, 39, 110, 1) 50%);
+        cursor: pointer;
 
         strong {
             color: white;

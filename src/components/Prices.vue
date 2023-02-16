@@ -1,6 +1,7 @@
 
 
 <script>
+
 export default {
     name: ' AppFooter',
     components: {
@@ -99,7 +100,7 @@ export default {
             Order Now
             <font-awesome-icon icon="fa-solid fa-arrow-right" />
         </button>
-    </div>
+</div>
 </template>
 
 <style lang="scss" scoped>
@@ -116,6 +117,7 @@ export default {
         background: linear-gradient(266deg, rgba(242, 92, 108, 1) 21%, rgba(185, 39, 110, 1) 50%);
         color: white;
         border: none;
+        cursor: pointer;
 
         .my-btn-secondary {
             color: $third-color;

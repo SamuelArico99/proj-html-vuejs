@@ -1,4 +1,5 @@
 <script>
+
 export default {
     name: ' WhatWeDo',
     components: {
@@ -98,7 +99,7 @@ export default {
 
             </div>
         </div>
-    </section>
+</section>
 </template>
 
 <style lang="scss" scoped>
@@ -118,6 +119,7 @@ section {
         background: rgb(2, 2, 49);
         background: linear-gradient(0deg, rgba(2, 2, 49, 1) 13%, rgba(10, 23, 79, 1) 50%);
         color: white;
+        cursor: pointer;
 
         .my-btn-secondary {
             display: block;
